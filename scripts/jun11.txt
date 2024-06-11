@@ -1,0 +1,72 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240611210029
+Username: TOBIASRHODES\keert
+RunAs User: TOBIASRHODES\keert
+Configuration Name: 
+Machine: TOBIASRHODES (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe
+Process ID: 17692
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\mie\formbuilder-1\scripts\jun11.txt
+PS D:\mie\formbuilder-1> npm start
+
+> formBuilder@3.19.7 prestart
+> run-p build:vendor copy:lang
+
+
+> formBuilder@3.19.7 build:vendor
+> babel-node tools/build-vendor
+
+
+> formBuilder@3.19.7 copy:lang
+> babel-node tools/copy-language-files
+
+
+> formBuilder@3.19.7 start
+> npm run start:devServer
+
+
+> formBuilder@3.19.7 start:devServer
+> webpack-dev-server --mode development --config tools/webpack.config
+
+(node:9152) [DEP_WEBPACK_COMPILATION_OPTIMIZE_CHUNK_ASSETS] DeprecationWarning: optimizeChunkAssets is deprecated (use Compilation.hooks.processAssets instead and use one o
+f Compilation.PROCESS_ASSETS_STAGE_* as stage option)
+(Use `node --trace-deprecation ...` to show where the warning was created)
+<i> [webpack-dev-server] Project is running at:
+<i> [webpack-dev-server] Loopback: http://localhost:8081/
+<i> [webpack-dev-server] On Your Network (IPv4): http://192.168.0.231:8081/
+<i> [webpack-dev-server] Content not from webpack is served from 'D:\MIE\formBuilder-1\demo' directory
+<i> [webpack-dev-middleware] wait until bundle finished: /
+assets by path dist/*.js 3 MiB
+  asset dist/form-builder.min.js 1.89 MiB [emitted] (name: dist/form-builder) 1 related asset
+  asset dist/form-render.min.js 1.11 MiB [emitted] (name: dist/form-render) 1 related asset
+asset demo/assets/js/demo.min.js 863 KiB [emitted] (name: demo/assets/js/demo) 1 related asset
+asset ../demo/index.html 3.92 KiB [emitted]
+runtime modules 82.4 KiB 36 modules
+javascript modules 583 KiB
+  modules by path ../node_modules/ 220 KiB 52 modules
+  modules by path ../src/ 363 KiB
+    modules by path ../src/js/ 192 KiB 24 modules
+    modules by path ../src/demo/ 31.5 KiB 4 modules
+    modules by path ../src/sass/*.scss 140 KiB 4 modules
+asset modules 13.1 KiB
+  modules by mime type image/svg+xml 978 bytes
+    data:image/svg+xml; utf8, <svg xmlns=%27h.. 501 bytes [built] [code generated]
+    data:image/svg+xml; utf8,<svg xmlns=%27ht.. 477 bytes [built] [code generated]
+  data:font/woff;base64,d09GRgABAAAAAB3k.. 10 KiB [built] [code generated]
+  data:image/png;base64,iVBORw0KGgoAAAAN.. 2.07 KiB [built] [code generated]
+../src/fonts/config.json 9.32 KiB [built] [code generated]
+webpack 5.91.0 compiled successfully in 4427 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? Y
+PS D:\mie\formbuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
