@@ -70,3 +70,24 @@ webpack 5.91.0 compiled successfully in 4427 ms
 Terminate batch job (Y/N)? Y
 PS D:\mie\formbuilder-1> TerminatingError(): "The pipeline has been stopped."
 >> TerminatingError(): "The pipeline has been stopped."
+PS D:\mie\formbuilder-1> $ git config --global user.name "keerth1balaji"
+$ : The term '$' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ $ git config --global user.name "keerth1balaji"
++ ~
+    + CategoryInfo          : ObjectNotFound: ($:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+$ : The term '$' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ $ git config --global user.name "keerth1balaji"
++ ~
+    + CategoryInfo          : ObjectNotFound: ($:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\mie\formbuilder-1> git config --global user.name "keerth1balaji"
+
+PS D:\mie\formbuilder-1> git config --global user.name "Keerthi Balaji"
+git config --global user.email "keerthi.b.lv@gmail.com"
+
+

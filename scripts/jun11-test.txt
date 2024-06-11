@@ -1,0 +1,402 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240611222652
+Username: TOBIASRHODES\keert
+RunAs User: TOBIASRHODES\keert
+Configuration Name: 
+Machine: TOBIASRHODES (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\keert\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 14508
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\mie\formbuilder-1\scripts\jun11-test.txt
+PS D:\MIE\formBuilder-2> npm start
+
+> formBuilder@3.19.7 prestart
+> run-p build:vendor copy:lang
+
+
+> formBuilder@3.19.7 build:vendor
+> babel-node tools/build-vendor
+
+'babel-node' is not recognized as an internal or external command,
+operable program or batch file.
+ERROR: "build:vendor" exited with 1.
+PS D:\MIE\formBuilder-2> npm install
+> formBuilder@3.19.7 prepare
+> [ "$NODE_ENV" = production ] && exit 0; husky install
+
+'[' is not recognized as an internal or external command,
+operable program or batch file.
+npm error code 1
+npm error path D:\MIE\formBuilder-2
+npm error command failed
+npm error command C:\Windows\system32\cmd.exe /d /s /c [ "$NODE_ENV" = production ] && exit 0; husky install
+
+npm error A complete log of this run can be found in: C:\Users\keert\AppData\Local\npm-cache\_logs\2024-06-11T16_57_17_232Z-debug-
+0.log
+PS D:\MIE\formBuilder-2> npm install
+
+> formBuilder@3.19.7 prepare
+> IF "%NODE_ENV%"=="production" exit 0; husky install
+
+
+up to date, audited 2215 packages in 6s
+
+237 packages are looking for funding
+  run `npm fund` for details
+
+17 vulnerabilities (1 low, 4 moderate, 12 high)
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+To address all issues possible (including breaking changes), run:
+  npm audit fix --force
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+PS D:\MIE\formBuilder-2> npm audit fix --force
+11 high severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+PS D:\MIE\formBuilder-2> npm update
+
+PS D:\MIE\formBuilder-2> ncu -u
+ncu : File C:\Users\keert\AppData\Roaming\npm\ncu.ps1 cannot be loaded because running scripts is disabled on this 
+system. For more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ ncu -u
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+ncu : File C:\Users\keert\AppData\Roaming\npm\ncu.ps1 cannot be loaded because running scripts is disabled on this system. For
+more information, see about_Execution_Policies at https:/go.microsoft.com/fwlink/?LinkID=135170.
+At line:1 char:1
++ ncu -u
++ ~~~
+    + CategoryInfo          : SecurityError: (:) [], PSSecurityException
+    + FullyQualifiedErrorId : UnauthorizedAccess
+PS D:\MIE\formBuilder-2> powershell -ExecutionPolicy Bypass ncu -u
+
+
+PS D:\MIE\formBuilder-2> npm install
+
+PS D:\MIE\formBuilder-2> npm install eslint@latest 
+npm warn   node_modules/@eslint-community/eslint-utils
+npm warn     @eslint-community/eslint-utils@"^4.2.0" from eslint@9.4.0
+npm warn   4 more (babel-eslint, eslint-config-prettier, ...)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer eslint@"^6.0.0 || ^7.0.0" from eslint-loader@4.0.2
+npm warn node_modules/eslint-loader
+npm warn   dev eslint-loader@"^4.0.2" from the root project
+
+up to date, audited 2188 packages in 8s
+
+288 packages are looking for funding
+  run `npm fund` for details
+
+11 high severity vulnerabilities
+
+To address issues that do not require attention, run:
+  npm audit fix
+
+Some issues need review, and may require choosing
+a different dependency.
+
+Run `npm audit` for details.
+PS D:\MIE\formBuilder-2> npm install eslint-loader@latest 
+
+PS D:\MIE\formBuilder-2> npm install eslint-loader@latest --force
+
+PS D:\MIE\formBuilder-2> npm install babel-jest@latest
+
+PS D:\MIE\formBuilder-2> npm install babel-jest@latest --force
+
+PS D:\MIE\formBuilder-2> npm start
+webpack 5.92.0 compiled with 3 errors in 1997 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-2> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-2> npm i --save-dev @types/wrapper-webpack-plugin
+npm error this command with --force or --legacy-peer-deps
+npm error to accept an incorrect (and potentially broken) dependency resolution.
+npm error
+npm error
+npm error For a full report see:
+npm error C:\Users\keert\AppData\Local\npm-cache\_logs\2024-06-11T17_22_42_986Z-eresolve-report.txt
+
+npm error A complete log of this run can be found in: C:\Users\keert\AppData\Local\npm-cache\_logs\2024-06-11T17_22_42_986Z-debug-
+0.log
+PS D:\MIE\formBuilder-2> npm i --save-dev @types/wrapper-webpack-plugin --force
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-2> npm install
+
+PS D:\MIE\formBuilder-2> npm install jest-scss-transform@1.0.3 --force
+
+
+PS D:\MIE\formBuilder-2> npm install jest-scss-transform@1.0.3 --legacy-peer-deps
+
+
+PS D:\MIE\formBuilder-2> npm install jest-scss-transform@1.0.3 --legacy-peer-deps
+
+
+PS D:\MIE\formBuilder-2> npm install jest-scss-transform@1.0.3 --legacy-peer-deps
+
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-2> npm install
+
+
+PS D:\MIE\formBuilder-2> npm install
+
+
+PS D:\MIE\formBuilder-2> npm install
+
+
+PS D:\MIE\formBuilder-2> npm install --legacy-peer-deps
+
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-2> npm install eslint-loader@latest
+
+
+PS D:\MIE\formBuilder-2> npm install eslint-loader@latest --force
+
+PS D:\MIE\formBuilder-2> npm install --legacy-peer-deps
+
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-2> npm install eslint@latest eslint-loader@latest --save-dev
+
+
+PS D:\MIE\formBuilder-2> npm install eslint@latest eslint-loader@latest --save-dev --force
+
+PS D:\MIE\formBuilder-2> eslint --debug form-builder.js
+eslint : The term 'eslint' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ eslint --debug form-builder.js
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (eslint:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+eslint : The term 'eslint' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ eslint --debug form-builder.js
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (eslint:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\MIE\formBuilder-2> npm install eslint@latest eslint-loader@latest --save-dev --legacy-peer-deps
+
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-2> eslint --debug form-render.js
+eslint : The term 'eslint' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ eslint --debug form-render.js
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (eslint:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+eslint : The term 'eslint' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ eslint --debug form-render.js
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (eslint:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\MIE\formBuilder-2> npm install eslint@latest eslint-loader@latest --save-dev --legacy-peer-deps
+
+
+PS D:\MIE\formBuilder-2> eslint --debug form-render.js
+eslint : The term 'eslint' is not recognized as the name of a cmdlet, function, script file, or operable program. Check 
+the spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ eslint --debug form-render.js
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (eslint:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+eslint : The term 'eslint' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ eslint --debug form-render.js
++ ~~~~~~
+    + CategoryInfo          : ObjectNotFound: (eslint:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\MIE\formBuilder-2> npx eslint --debug form-render.js
+
+
+PS D:\MIE\formBuilder-2> npx eslint --init
+
+npm warn     2 more (create-jest, jest-cli)
+npm warn   1 more (the root project)
+npm warn
+npm warn Could not resolve dependency:
+npm warn peer babel-jest@"^24.8.0" from jest-scss-transform@1.0.3
+npm warn node_modules/jest-scss-transform
+npm warn   dev jest-scss-transform@"^1.0.3" from the root project
+npm warn
+npm warn Conflicting peer dependency: babel-jest@24.9.0
+npm warn node_modules/babel-jest
+npm warn   peer babel-jest@"^24.8.0" from jest-scss-transform@1.0.3
+npm warn   node_modules/jest-scss-transform
+npm warn     dev jest-scss-transform@"^1.0.3" from the root project
+
+added 38 packages, changed 1 package, and audited 1819 packages in 12s
+
+306 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+Successfully created D:\MIE\formBuilder-2\eslint.config.mjs file.
+PS D:\MIE\formBuilder-2> npx eslint --debug form-render.js
+
+
+PS D:\MIE\formBuilder-2> npm install --legacy-peer-deps
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-2> npm uninstall eslint-loader
+
+
+PS D:\MIE\formBuilder-2> npm uninstall eslint-loader --force
+
+
+PS D:\MIE\formBuilder-2> rm -rf node_modules package-lock.json
+PS D:\MIE\formBuilder-2> TerminatingError(Remove-Item): "A parameter cannot be found that matches parameter name 'rf'."
+Remove-Item : A parameter cannot be found that matches parameter name 'rf'.
+At line:1 char:4
++ rm -rf node_modules package-lock.json
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : A parameter cannot be found that matches parameter name 'rf'.
+At line:1 char:4
++ rm -rf node_modules package-lock.json
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS D:\MIE\formBuilder-2> npm install eslint-webpack-plugin --save-dev
+
+
+PS D:\MIE\formBuilder-2> npm install eslint-webpack-plugin --save-dev --force
+
+PS D:\MIE\formBuilder-2> npm install --legacy-peer-deps
+
+PS D:\MIE\formBuilder-2> npm audit fix --force
+
+PS D:\MIE\formBuilder-2> npm install eslint@latest eslint-loader@latest --save-dev --legacy-peer-deps
+
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> npm install eslint-webpack-plugin --save-dev
+
+
+PS D:\MIE\formBuilder-2> npm uninstall eslint-loader --force
+
+PS D:\MIE\formBuilder-2> npm install eslint-webpack-plugin --save-dev
+
+
+PS D:\MIE\formBuilder-2> rm -rf node_modules package-lock.json
+npm install
+
+>> TerminatingError(Remove-Item): "A parameter cannot be found that matches parameter name 'rf'."
+Remove-Item : A parameter cannot be found that matches parameter name 'rf'.
+At line:1 char:4
++ rm -rf node_modules package-lock.json
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : A parameter cannot be found that matches parameter name 'rf'.
+At line:1 char:4
++ rm -rf node_modules package-lock.json
++    ~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+
+PS D:\MIE\formBuilder-2> Remove-Item -Recurse -Force node_modules
+Remove-Item package-lock.json
+npm install
+
+
+PS D:\MIE\formBuilder-2> npm audit fix --froce
+
+PS D:\MIE\formBuilder-2> npm audit fix --force
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-2> npm install eslint-loader@latest --force
+
+PS D:\MIE\formBuilder-2> npm start
+
+PS D:\MIE\formBuilder-2> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-2> stop transcript
+stop : The term 'stop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the 
+spelling of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ stop transcript
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+stop : The term 'stop' is not recognized as the name of a cmdlet, function, script file, or operable program. Check the spelling
+of the name, or if a path was included, verify that the path is correct and try again.
+At line:1 char:1
++ stop transcript
++ ~~~~
+    + CategoryInfo          : ObjectNotFound: (stop:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS D:\MIE\formBuilder-2> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240611235938
+**********************
