@@ -45,3 +45,14 @@ webpack 5.91.0 compiled successfully in 12192 ms
 Terminate batch job (Y/N)? y
 PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
 >> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> Start-Transcript -Path "D:\mie\formbuilder-1\scripts-run\jun12-1.txt"
+Transcript started, output file is D:\mie\formbuilder-1\scripts-run\jun12-1.txt
+PS D:\MIE\formBuilder-1> npm start
+../src/fonts/config.json 9.32 KiB [built] [code generated]
+webpack 5.91.0 compiled successfully in 8069 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> Stop-Transcript
+Transcript stopped, output file is D:\mie\formbuilder-1\scripts-run\jun12-1.txt
