@@ -1,0 +1,54 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240614140115
+Username: TOBIASRHODES\keert
+RunAs User: TOBIASRHODES\keert
+Configuration Name: 
+Machine: TOBIASRHODES (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\keert\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 27608
+PSVersion: 5.1.22621.3672
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3672
+BuildVersion: 10.0.22621.3672
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\mie\formbuilder-1\scripts-run\jun13.txt
+PS D:\MIE\formBuilder-1> npm start
+webpack 5.91.0 compiled with 1 error in 596 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/customButton.js
+
+
+PS D:\MIE\formBuilder-1> npm start
+ @ ../src/js/form-render.js 7:0-25
+
+webpack 5.91.0 compiled with 1 error in 477 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/customButton.js
+
+PS D:\MIE\formBuilder-1> npm start
+runtime modules 82.4 KiB 36 modules
+modules by layer 91.5 KiB
+  ../src/js/form-builder.js 76.9 KiB [code generated]
+  ../src/js/controls.js 4.23 KiB [code generated]
+  ../src/fonts/config.json 10.3 KiB [built] [code generated]
+webpack 5.91.0 compiled successfully in 609 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240614164147
+**********************

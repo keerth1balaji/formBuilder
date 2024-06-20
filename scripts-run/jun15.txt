@@ -1,0 +1,120 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240619192955
+Username: TOBIASRHODES\keert
+RunAs User: TOBIASRHODES\keert
+Configuration Name: 
+Machine: TOBIASRHODES (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\keert\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 42064
+PSVersion: 5.1.22621.3672
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.3672
+BuildVersion: 10.0.22621.3672
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\mie\formbuilder-1\scripts-run\jun15.txt
+PS D:\MIE\formBuilder-1> npm start
+
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npm start
+  38:1    error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+  39:54   error  Extra semicolon                                  semi
+  39:55   error  Expected linebreaks to be 'LF' but found 'CRLF'  linebreak-style
+
+✖ 48 problems (48 errors, 0 warnings)
+  48 errors and 0 warnings potentially fixable with the `--fix` option.
+
+ @ ../src/js/control/index.js 13:0-49 27:2-21
+ @ ../src/js/form-render.js 7:0-25
+
+webpack 5.91.0 compiled with 1 error in 6425 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+
+PS D:\MIE\formBuilder-1> npm start
+
+webpack 5.91.0 compiled with 1 error in 639 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+
+D:\MIE\formBuilder-1\src\js\control\signaturePad.js
+  45:9  warning  'drawing' is assigned a value but never used  no-unused-vars
+
+✖ 1 problem (0 errors, 1 warning)
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+✖ 1 problem (0 errors, 1 warning)
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+
+PS D:\MIE\formBuilder-1> npm start
+
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+
+PS D:\MIE\formBuilder-1> npm start
+
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+
+PS D:\MIE\formBuilder-1> npm start
+
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+
+PS D:\MIE\formBuilder-1> npm start
+
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+
+PS D:\MIE\formBuilder-1> npm start
+
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+
+PS D:\MIE\formBuilder-1> npm start
+webpack 5.91.0 compiled successfully in 597 ms
+assets by status 3.92 KiB [cached] 1 asset
+assets by path dist/*.js 3.03 MiB
+  asset dist/form-builder.min.js 1.91 MiB [emitted] (name: dist/form-builder) 1 related asset
+  asset dist/form-render.min.js 1.13 MiB [emitted] (name: dist/form-render) 1 related asset
+asset demo/assets/js/demo.min.js 863 KiB [emitted] (name: demo/assets/js/demo) 1 related asset
+cached modules 610 KiB (javascript) 82.4 KiB (runtime) [cached] 127 modules
+../src/js/control/signaturePad.js 1.56 KiB [built]
+webpack 5.91.0 compiled successfully in 482 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npm start
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> npx eslint --fix src/js/control/signaturePad.js
+
+PS D:\MIE\formBuilder-1> npm start
+
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240619214909
+**********************

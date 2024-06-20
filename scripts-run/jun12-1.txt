@@ -1,0 +1,31 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240612212128
+Username: TOBIASRHODES\keert
+RunAs User: TOBIASRHODES\keert
+Configuration Name: 
+Machine: TOBIASRHODES (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\keert\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 30068
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\mie\formbuilder-1\scripts-run\jun12-1.txt
+PS D:\MIE\formBuilder-1> npm start
+../src/fonts/config.json 9.32 KiB [built] [code generated]
+webpack 5.91.0 compiled successfully in 8069 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> Stop-Transcript
+**********************
+Windows PowerShell transcript end
+End time: 20240612220210
+**********************

@@ -13,6 +13,7 @@ export const defaultOptions = {
   controlOrder: [
     'autocomplete',
     'button',
+    'custom button',
     'checkbox-group',
     'checkbox',
     'date',

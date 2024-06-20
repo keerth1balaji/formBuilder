@@ -1,0 +1,58 @@
+﻿**********************
+Windows PowerShell transcript start
+Start time: 20240612211620
+Username: TOBIASRHODES\keert
+RunAs User: TOBIASRHODES\keert
+Configuration Name: 
+Machine: TOBIASRHODES (Microsoft Windows NT 10.0.22631.0)
+Host Application: C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noexit -command try { . "c:\Users\keert\AppData\Local\Programs\Microsoft VS Code\resources\app\out\vs\workbench\contrib\terminal\browser\media\shellIntegration.ps1" } catch {}
+Process ID: 30068
+PSVersion: 5.1.22621.2506
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.22621.2506
+BuildVersion: 10.0.22621.2506
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+Transcript started, output file is D:\mie\formbuilder-1\scripts-run\jun12.txt
+PS D:\MIE\formBuilder-1> npm start
+<i> [webpack-dev-server] On Your Network (IPv4): http://192.168.0.231:8080/
+<i> [webpack-dev-server] Content not from webpack is served from 'D:\MIE\formBuilder-1\demo' directory
+<i> [webpack-dev-middleware] wait until bundle finished: /
+assets by path dist/*.js 3 MiB
+  asset dist/form-builder.min.js 1.89 MiB [emitted] (name: dist/form-builder) 1 related asset
+  asset dist/form-render.min.js 1.11 MiB [emitted] (name: dist/form-render) 1 related asset
+asset demo/assets/js/demo.min.js 863 KiB [emitted] (name: demo/assets/js/demo) 1 related asset
+asset ../demo/index.html 3.92 KiB [emitted]
+runtime modules 82.4 KiB 36 modules
+javascript modules 583 KiB
+  modules by path ../node_modules/ 220 KiB 52 modules
+  modules by path ../src/ 363 KiB
+    modules by path ../src/js/ 192 KiB 24 modules
+    modules by path ../src/demo/ 31.5 KiB 4 modules
+    modules by path ../src/sass/*.scss 140 KiB 4 modules
+asset modules 13.1 KiB
+  modules by mime type image/svg+xml 978 bytes
+    data:image/svg+xml; utf8, <svg xmlns=%27h.. 501 bytes [built] [code generated]
+    data:image/svg+xml; utf8,<svg xmlns=%27ht.. 477 bytes [built] [code generated]
+  data:font/woff;base64,d09GRgABAAAAAB3k.. 10 KiB [built] [code generated]
+  data:image/png;base64,iVBORw0KGgoAAAAN.. 2.07 KiB [built] [code generated]
+../src/fonts/config.json 9.32 KiB [built] [code generated]
+webpack 5.91.0 compiled successfully in 12192 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> Start-Transcript -Path "D:\mie\formbuilder-1\scripts-run\jun12-1.txt"
+Transcript started, output file is D:\mie\formbuilder-1\scripts-run\jun12-1.txt
+PS D:\MIE\formBuilder-1> npm start
+../src/fonts/config.json 9.32 KiB [built] [code generated]
+webpack 5.91.0 compiled successfully in 8069 ms
+<i> [webpack-dev-server] Gracefully shutting down. To force exit, press ^C again. Please wait...
+Terminate batch job (Y/N)? y
+PS D:\MIE\formBuilder-1> TerminatingError(): "The pipeline has been stopped."
+>> TerminatingError(): "The pipeline has been stopped."
+PS D:\MIE\formBuilder-1> Stop-Transcript
+Transcript stopped, output file is D:\mie\formbuilder-1\scripts-run\jun12-1.txt
