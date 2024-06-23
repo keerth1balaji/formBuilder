@@ -34,7 +34,12 @@ export default class controlSignaturePad extends control {
 
     })
     this.labelSpan = this.markup('span', this.config.label || 'Signature', { className: 'form-label' })
-    return [this.labelSpan, this.canvas, this.clearButton]
+
+    // Created a container div and wrap the canvas inside it
+    const container = this.markup('div', [this.canvas], { className: 'signature-container' })
+  
+    return [this.labelSpan, container, this.clearButton]
+    
   }
 
   /**
